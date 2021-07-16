@@ -1,0 +1,8 @@
+package com.example.javaprograms.javaaa.interfacee;
+
+public interface Int2 extends Int3{
+   default void display(){
+        System.out.println("second");
+    }
+
+}
